@@ -1,4 +1,5 @@
 # encoding:utf-8
+# 游戏入口
 import sys
 import pygame
 from settings import Settings
