@@ -190,10 +190,10 @@ def update_regScreen(stats, ai_settings, screen, username_box, password_box, ret
                 password_box.clear()
                 stats.username_input = False
                 stats.password_input = False 
-                filename1 = 'userInformation.json'
+                filename1 = './Information/userInformation.json'
                 with open(filename1, 'w') as f_obj:
                     json.dump(stats.user_info, f_obj)
-                filename2 = 'game_record.json'
+                filename2 = './Information/game_record.json'
                 with open(filename2, 'w') as f_obj:
                     json.dump(stats.game_record, f_obj)
 
@@ -248,7 +248,7 @@ def update_gameScreen(stats, ai_settings, screen, image_map, sb, tb, stopButton)
                         if stats.step < min_step or (stats.step==min_step and stats.time<min_time) or (min_step==0 and min_time==0):
                             new_record = [stats.step, stats.time]
                             stats.game_record[stats.player] = new_record
-                            filename = 'game_record.json'
+                            filename = './Information/game_record.json'
                             with open(filename, 'w') as f_obj:
                                 json.dump(stats.game_record, f_obj)
                         stats.page = 'Victory'
