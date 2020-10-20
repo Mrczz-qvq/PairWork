@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="123px" height="52px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="33px" y="138px" width="123px" height="52px" filterUnits="userSpaceOnUse" id="filter3">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget4">
+      <image preserveAspectRatio="none" style="overflow:visible" width="113" height="42" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHEAAAAqCAYAAACEN7TkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMaSURBVHhe7Zy9bxoxGIfBAhSpHbIE3cBAx0pdOnZkTiqVAcTQtXObrdkqZWm3/A8demKhUtOZsUulLt2bgeFEFoZUQgJBfz/z3inAUXIJH7b0PpJ1tiEk8pPXH5x9+dwD6Xa7hSiKKoVCoTqdTgOkSj6ffyQvKwugff6ifXpI0Xg8vgqCoFer1cby8r24l8R2u/0YlxOkY/xRJ/iDDu0LSmbQfgO03yWy35Eum83mjX0hA5kkQh4j7Ry/9DWKB7NaZYMM0b4h2vcMMiOpW8udJHY6ncPRaPQW2fdIKm/7UOZFqVT6VK/XB1K3krUSwzB8Zoz5hmx1VqPsCoiM0PYvG43GT6lKxcg1FQh8hdD+gawK3ANo+2AymXQxjLWkKpWVEvGD7/Bf0MEHcRKj7Alp/y/0MatZJrU7ZQRSoBQVR0BU1lut1lcpJixJ5BjILlQj0D0wRt4gvYDI31JlmZMos9BfyOoY6C5XxWLx+e1Z69yYKMsIFeg2VfGUkEQiF/K4/EHSdaD7DJGexF8IJJGIvvYcFxXoBwfiy2IjEVHIScw1kkr0B0bjEb9rjSORX2arQL+gL3pLutNjuSp+Yb3leT+w3+9fY12ot5M8A+PioFwuHxne0FWBfkJv9Gd4R17qFA+hP4OQ5PpQ8RT6o8SKlBUPob+Vt6IUfzAYHHuSVzyE/ijxzhtyFPegP8O9j1JWPIT+DDevctEodYpH0Bv9Ge4+Rkhy86riGfRGf/HslLuPFf+w3mKJjETe2lD8gb5sD2ol8p4U+teQecUP6Cs+t5Es9tG/nuGi0egHQ/FlSSRyvwbsXkhRcRh6ivfXkEQi4QEOvEEX/w5DP/QkRcucRO5l5AEOvDHzGTll+9AL/SyelJqTSHgCB/3tGykqDkEvaSekliQS9LecqZ7OSoojnIqXJVIP1MTI0bbPSHouY0+wC2UErhJI/iuR6CHT/cFJDMfABx0yJTyBwwMcyH5A0nXkbuBx74+YhT5dJ5CsjcTb8LwGPlwfvLA9tvfghUVk278+AmUDoP12+wiUNPRhRNlA+2z4YUS53D97alNQta9McQAAAABJRU5ErkJggg==" x="33px" y="138px" />
+      <path d="M 33.5 159  A 20.5 20.5 0 0 1 54 138.5 L 125 138.5  A 20.5 20.5 0 0 1 145.5 159 A 20.5 20.5 0 0 1 125 179.5 L 54 179.5  A 20.5 20.5 0 0 1 33.5 159 Z " stroke-width="1" stroke="#ffffff" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -33 -138 )">
+    <use xlink:href="#widget4" filter="url(#filter3)" />
+    <use xlink:href="#widget4" />
+  </g>
+</svg>

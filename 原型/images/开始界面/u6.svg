@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="123px" height="52px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="33px" y="138px" width="123px" height="52px" filterUnits="userSpaceOnUse" id="filter1">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget2">
+      <image preserveAspectRatio="none" style="overflow:visible" width="113" height="42" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHEAAAAqCAYAAACEN7TkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALXSURBVHhe7Zw/b9NAGIdjqwMSHbogMWQIYyWWjnwGGqlsDKydCxtsSF1g63fo0GxFop0ZWZBYKjGSIUMllg5F6lAlPD/fi1U3bhO3cXMnvY/05v7mEt1P7/nOvnPWuSeTyWSFoIv1iD+1+GPMqecvNsqy7JRwaPFLFdyVO4mIWKvYJtGX2CZ/Yq0ocBpDP54RHGHH9OMRdl4UNKCRiPI0bJfoG37sUch1FgV9e0EwoG8/YPLUuZhLRBpfw3aIvnfx2sfE3KOvP2Py1FuZKeJ4PH5O8JXGeiHHeSgQU97Yz/P8R8ipJ7ewFhrZIvjuAi4H+l0TxW840uuQU8+NIvLFtwSHNLQacpxloP7HDkyPWmqHU/PAw5ByIuIVgn6xeMmUiHYN1BDqHhgZOJeWHy+4Rp6EnEBFRCppFvoTAf0aGCnoM0SfDayctVauiVTYcQHjRvpIJ0sWlJ5IgRbyv6nk68DIQacLdHqGFTcESk+kYNcFTAPpJL0sGTyRDN0L/eMipoN54xPsvPBEMnQT2wVMCPNGPYQoh1M9jXDSo9AtQ80VG0r9cVJioNuZhlR5YtcFTBPTrSsRfV2YNr0cl9SdcidRpF8xnIakkyjFcOokjkQchaiTKKOcGc7cG3Kc+JB+8kTtfXTSZeiL/YQpF/t8aPexNq866aHNxpf/Z6fHFjppUejmj6ISBb2qj6IUIRgo7iSDtvsX5zZ8e0aCmBdOb8+wjL2QciJH5zTK9X3dlsVfVPCb4pGCPqfos47Vb1m0gj4VG5+Rc9rHdOlfFVBURBR2Amc7pJzI2K47ITUloqDiANXfWdKJAOkhXSxZoXJNvA5f3ML2cV8/l7EkbAiVB964BLxVROGHTJcHAmoGer9DpoIGThBwgwY/YjqG7LSM+hn7RL+vzxJQzPTEq9Cwv3ihRcxJ2nnxwnX4MX8FyoKgH7VceLhXoNTBn/CXETVjwS8j6nT+AQmVSNS4zFN9AAAAAElFTkSuQmCC" x="33px" y="138px" />
+      <path d="M 33.5 159  A 20.5 20.5 0 0 1 54 138.5 L 125 138.5  A 20.5 20.5 0 0 1 145.5 159 A 20.5 20.5 0 0 1 125 179.5 L 54 179.5  A 20.5 20.5 0 0 1 33.5 159 Z " stroke-width="1" stroke="#ffffff" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -33 -138 )">
+    <use xlink:href="#widget2" filter="url(#filter1)" />
+    <use xlink:href="#widget2" />
+  </g>
+</svg>

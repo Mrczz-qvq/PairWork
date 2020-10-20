@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="157px" height="61px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="127px" y="448px" width="157px" height="61px" filterUnits="userSpaceOnUse" id="filter15">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget16">
+      <image preserveAspectRatio="none" style="overflow:visible" width="147" height="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJMAAAAzCAYAAACT+Tr7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPeSURBVHhe7Z0/SJRhHMe9w8HAsUDQ9oKCFiGhQaGhqKFoCpKMcAoHB7eaDApaG4SGEl0cQgcFIaGGIAehhgYHRyUHoUXIQbTP932fe7vz7l7v3jsx774f+N3z5+7e9+D35fd7nvd93udyHSfAwcFBH0VPkfVi5nTZwrYLls/nN9XZTJoipsPDw27sHtUH2K1cLtcVvWH+W/DXHsUytoS/FrCd6I0GaEhMEhD2jOogP6Yz7jVnDXy4T/EFmyZizUadGcgkJk4+iL1CQNdDl2kR8OsP/DqBrYSumqlLTIyFrlBMciKlNNPCICqJaZxI9TPuOZ6axcTBldJmEFJ36DItDv7WuGq01tSXD2UqRKTnFPMWUnuBv7uwGfw/GbpSSY1MKLMTe88BH4Uu06agA834hrHd0FVGqphQpNKahWQiENQieriPafZXRtU0p9RmIZli0MNdBFU15VWMTHxBs7X5uGVMGU8Q1odQTygTU5j+f+PDHmybihBslOYGmOWtxT0xldKcriNZSKYq6EN3O97ErX+URCYUN0jxOW4ZcywajC+EeqmYSHFKb75FYmqC4LOOXq5i0ewuSXMadFtIph7QyyWKZMZfLCbd/TemLtDN01CN0xwdWo/0G6V5GYnJwgW0sxNFppDiLCSTCelHZSHNaYWkMVm5o5cozTGL+0Nk8lJbkwki014+nz+XR0h9FpJpBOlHOlKa09MjxjRKj8VkmoXFZJpGJCY/IGmaQa/EpCc9jWmULYlJjwsb0yjbFpNpFhaTaRrbvgJuGia5Ah7a2g3DmKxo04vkRu9SKI3Jwke9FNYzncd+eRmKyQLauUia24wiEyLSRk9RqDKmHhDSqoSkeiHNielQGlMPc6EsezrlO1HqWmgakwpRaQO9XMZKn04RdE6EqjG18KIgJFESmQTR6RMfuBmaxlSEqLTGWKk/NCNKIlNgnA9qxzBjKoI+9gk446GZUCYm1KY9DEfjljEVGUNMX0M9oVJkkqBmUd/L0DQmAV1MoY+p0CyhbMxUDOMn7WPpnXVNBEJaQQ+3sfp2jhN8aZgDLIamaWOCkKpuQSiOE9OuDsCBXocu04YotaEDRaSqm6OK1DRXDAccwd5xQN+/axPwt6LQWLUx0lFSI1MxiEh7GA5wAt/DawPw8xo+H6pVSKJmMQkOrAtVQ1SV+tbjXtNK4NcN7CF+7kdMZdP/NGpOc0fhhNpwfoTqY056I+41ZxV8uUoxhy/fYlUH2WlkFlMx/BCth9IlBO2G4f+bOwPgL93l0JBFC9uWiUQN/5lhU8R0FG1iQFH4F0yZH/Q8fU74nzA7Ov4C2INcdJrzeUwAAAAASUVORK5CYII=" x="127px" y="448px" />
+      <path d="M 127.5 473.5  A 25 25 0 0 1 152.5 448.5 L 248.5 448.5  A 25 25 0 0 1 273.5 473.5 A 25 25 0 0 1 248.5 498.5 L 152.5 498.5  A 25 25 0 0 1 127.5 473.5 Z " stroke-width="1" stroke="#ffffff" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -127 -448 )">
+    <use xlink:href="#widget16" filter="url(#filter15)" />
+    <use xlink:href="#widget16" />
+  </g>
+</svg>
